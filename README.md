@@ -1,15 +1,15 @@
 # LoFGAN-pytorch
 
-The official pytorch implementation of our paper LoFGAN: Fusing Local Representations for Few-shot Image Generation, ICCV 2021.
+The official pytorch implementation of our paper SelfNet: Self-attention and Convolution Fusion Network for Few-shot Image Generation.
 
 
 ![framework](images/framework_all.png)
 
-> LoFGAN: Fusing Local Representations for Few-shot Image Generation
+>  SelfNet: Self-attention and Convolution Fusion Network for Few-shot Image Generationn
 > 
-> Zheng Gu, Wenbin Li, Jing Huo, Lei Wang, and Yang Gao
+> Zhan Li, Shijie Shi, Chuan Peng, Yuning Wang, Lei Wang, JiaBao Shi
 > 
-> [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Gu_LoFGAN_Fusing_Local_Representations_for_Few-Shot_Image_Generation_ICCV_2021_paper.pdf)
+
 
 ## Prerequisites
 - Pytorch 1.5
