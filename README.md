@@ -47,16 +47,13 @@ python main_metric.py --gpu 0 --dataset flower \
 ## Citation
 If you use this code for your research, please cite our paper.
 
-    @inproceedings{gu2021lofgan,
-    title={LoFGAN: Fusing Local Representations for Few-Shot Image Generation},
-    author={Gu, Zheng and Li, Wenbin and Huo, Jing and Wang, Lei and Gao, Yang},
-    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-    pages={8463--8471},
-    year={2021}
+    @inproceedings{zhan2023,
+    title={SelfNet: Self-attention and Convolution Fusion Network for Few-shot Image Generation},
+    author={Zhan, tec},
+    booktitle={},
+    pages={},
+    year={2023}
     }
 
 
-## Acknowledgement
-Our code is designed based on [FUNIT](https://github.com/NVlabs/FUNIT).
 
-The code for calculate FID is based on [pytorch-fid](https://github.com/mseitzer/pytorch-fid)
