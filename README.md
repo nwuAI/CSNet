@@ -17,7 +17,7 @@ Download the [datasets](https://drive.google.com/drive/folders/1nGIqXPEjyhZjIsgi
 
 ## Training
 ```shell
-python train.py --conf configs/flower_slefunet.yaml \
+python train.py --conf configs/flower_selfunet.yaml \
 --output_dir results/flower_slefunet \
 --gpu 0
 ```
