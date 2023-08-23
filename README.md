@@ -1,9 +1,9 @@
 # SelUfNet-pytorch
 
-The official pytorch implementation of our paper SelfNet: Self-attention and Convolution Fusion Network for Few-shot Image Generation.
+The official pytorch implementation of our paper SelfUNet: Self-attention enhanced UNet for few-shot image generation.
 
 
->  SSelfUNet: Self-attention enhanced UNet for few-shot image generation
+>  SelfUNet: Self-attention enhanced UNet for few-shot image generation
 > 
 > Zhan Li, etc.
 > 
