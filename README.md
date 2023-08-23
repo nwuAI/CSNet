@@ -20,7 +20,7 @@ Download the [datasets](https://drive.google.com/drive/folders/1nGIqXPEjyhZjIsgi
 ## Training
 ```shell
 python train.py --conf configs/flower_slefunet.yaml \
---output_dir results/flower_slefunetn \
+--output_dir results/flower_slefunet \
 --gpu 0
 ```
 
@@ -30,16 +30,16 @@ python train.py --conf configs/flower_slefunet.yaml \
 
 ## Testing
 ```shell
-python test.py --name results/flower_slefunet --gpu 0
+python test.py --name results/flower_selfunet --gpu 0
 ```
 
-The generated images will be saved in `results/flower_slefunet/test`.
+The generated images will be saved in `results/flower_selfunet/test`.
 
 
 ## Evaluation
 ```shell
 python main_metric.py --gpu 0 --dataset flower \
---name results/flower_slefunet \
+--name results/flower_selfunet \
 --real_dir datasets/for_fid/flower --ckpt gen_00100000.pt \
 --fake_dir test_for_fid
 ```
