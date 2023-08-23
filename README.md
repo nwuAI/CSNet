@@ -3,8 +3,6 @@
 The official pytorch implementation of our paper SelfNet: Self-attention and Convolution Fusion Network for Few-shot Image Generation.
 
 
-![framework](images/framework_all.png)
-
 >  SSelfUNet: Self-attention enhanced UNet for few-shot image generation
 > 
 > Zhan Li, etc.
