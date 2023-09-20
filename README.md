@@ -1,4 +1,4 @@
-# SelUfNet-pytorch
+# SelUfNet
 
 The official pytorch implementation of our paper SelfUNet: Self-attention enhanced UNet for few-shot image generation.
 
