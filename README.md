@@ -45,12 +45,12 @@ python main_metric.py --gpu 0 --dataset flower \
 ## Citation
 If you use this code for your research, please cite our paper.
 
-    @inproceedings{lizhan2023,
+    @inproceedings{lizhan2024,
     title={CSNet: Combining Global and Local Feature Fusion with Space Generation for few-shot image generation},
     author={Zhan, etc.},
     booktitle={},
     pages={},
-    year={2023}
+    year={2024}
     }
 
 
