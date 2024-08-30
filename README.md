@@ -17,8 +17,8 @@ Download the [datasets](https://drive.google.com/drive/folders/1nGIqXPEjyhZjIsgi
 
 ## Training
 ```shell
-python train.py --conf configs/flower_selfunet.yaml \
---output_dir results/flower_selfunet \
+python train.py --conf configs/flower_csnet.yaml \
+--output_dir results/flower_csnet \
 --gpu 0
 ```
 
@@ -28,7 +28,7 @@ python train.py --conf configs/flower_selfunet.yaml \
 
 ## Testing
 ```shell
-python test.py --name results/flower_selfunet --gpu 0
+python test.py --name results/flower_csnet --gpu 0
 ```
 
 The generated images will be saved in `results/flower_csnet/test`.
