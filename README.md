@@ -1,9 +1,9 @@
-# SelUfNet
+# CSNet
 
-The official pytorch implementation of our paper SelfUNet: Self-attention enhanced UNet for few-shot image generation.
+The official pytorch implementation of our paper CSNet: Combining Global and Local Feature Fusion with Space Generation for few-shot image generation.
 
 
->  SelfUNet: Self-attention enhanced UNet for few-shot image generation
+>  CSNet: Combining Global and Local Feature Fusion with Space Generation for few-shot image generation
 > 
 > Zhan Li, etc.
 > 
@@ -31,7 +31,7 @@ python train.py --conf configs/flower_selfunet.yaml \
 python test.py --name results/flower_selfunet --gpu 0
 ```
 
-The generated images will be saved in `results/flower_selfunet/test`.
+The generated images will be saved in `results/flower_csnet/test`.
 
 
 ## Evaluation
@@ -46,8 +46,8 @@ python main_metric.py --gpu 0 --dataset flower \
 If you use this code for your research, please cite our paper.
 
     @inproceedings{lizhan2023,
-    title={SelfUNet: Self-attention enhanced UNet for few-shot image generation},
-    author={Zhan, tec},
+    title={CSNet: Combining Global and Local Feature Fusion with Space Generation for few-shot image generation},
+    author={Zhan, etc.},
     booktitle={},
     pages={},
     year={2023}
