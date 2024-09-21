@@ -47,7 +47,7 @@ If you use this code for your research, please cite our paper.
 
     @inproceedings{lizhan2024,
     title={Global and Local Feature Fusion Network for few-shot image generation with Space Generation},
-    author={Zhan, etc.},
+    author={Zhan Li, etc.},
     booktitle={},
     pages={},
     year={2024}
