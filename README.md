@@ -3,7 +3,7 @@
 The official pytorch implementation of our paper CSNet: Combining Global and Local Feature Fusion with Space Generation for few-shot image generation.
 
 
->  CSNet: Combining Global and Local Feature Fusion with Space Generation for few-shot image generation
+>  Global and Local Feature Fusion Network for few-shot image generation with Space Generation
 > 
 > Zhan Li, etc.
 > 
@@ -46,7 +46,7 @@ python main_metric.py --gpu 0 --dataset flower \
 If you use this code for your research, please cite our paper.
 
     @inproceedings{lizhan2024,
-    title={CSNet: Combining Global and Local Feature Fusion with Space Generation for few-shot image generation},
+    title={Global and Local Feature Fusion Network for few-shot image generation with Space Generation},
     author={Zhan, etc.},
     booktitle={},
     pages={},
